@@ -10,8 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 480px;
-    height: 730px;
+    width: 400px;
+    height: 660px;
     padding: 30px;
     box-sizing: border-box;
     background-color: #1f2937;
@@ -40,7 +40,7 @@ body{
     justify-content: center;
     padding: 10px;
 
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 500;
     overflow-x: auto;
     background-color: rgb(245, 244, 244);
@@ -55,8 +55,8 @@ body{
 }
 
 .but{
-    width: 90px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 500;
@@ -66,7 +66,7 @@ body{
 }
 
 #ac,#equal{
-    width: 200px;
+    width: 160px;
 }
 
 #sub,#divide,#per{
