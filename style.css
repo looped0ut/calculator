@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     margin: auto;
     width: 500px;
-    height: 770px;
+    height: 740px;
     padding: 30px;
     box-sizing: border-box;
     background-color: #1f2937;
@@ -56,7 +56,7 @@ body{
 
 .but{
     width: 95px;
-    height: 95px;
+    height: 90px;
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 500;
