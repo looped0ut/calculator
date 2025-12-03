@@ -10,13 +10,13 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 500px;
-    height: 740px;
+    width: 480px;
+    height: 730px;
     padding: 30px;
     box-sizing: border-box;
     background-color: #1f2937;
     border-radius: 0.5cm;
-    margin-top: 45px;
+    margin-top: 30px;
     flex-shrink: 1;
 }
 
@@ -29,7 +29,7 @@ body{
 .display{
     height: 63px;
     
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 40px;
     box-sizing: border-box;
     border-radius: 1cm;
@@ -55,8 +55,8 @@ body{
 }
 
 .but{
-    width: 95px;
-    height: 90px;
+    width: 90px;
+    height: 85px;
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 500;
@@ -66,7 +66,7 @@ body{
 }
 
 #ac,#equal{
-    width: 210px;
+    width: 200px;
 }
 
 #sub,#divide,#per{
