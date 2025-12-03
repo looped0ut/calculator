@@ -103,7 +103,15 @@ oper.forEach(element=>{
         if( operand1 !==null && operand2 !== null && operator!==""){
             operand1 = operate();
             op1 =   String(operand1);
-            display.textContent= op1;
+            if(op1==="Infinity"){
+                display.textContent="You cannot devide by zero :(";
+            }
+            else if(op1==="NaN"){
+                display.textContent="learn to type decimals..."
+            }
+            else{
+                display.textContent= op1;
+            }
             operator =  element.textContent
             operand2 = null;
             op2 = "";
@@ -120,7 +128,7 @@ equal.addEventListener("click",function(){
     if( operand1 !==null && operator !=="" &&  operand2 !==null){
         result = operate();
         if(result===Infinity){
-            res ="You cannot devide bu zero :(";
+            res ="You cannot devide by zero :(";
         }
         else{
         res = String(result)
@@ -164,13 +172,13 @@ ce.addEventListener("click",function(){
 
     let disp = display.textContent;
 
-    if( operand1!== null && operand2 === null && operator===""){
+    if( op1!== "" && op2 === "" && operator===""){
     op1 = disp.slice(0,-1);
     operand1 = Number(op1);
     display.textContent = op1;
     }
 
-    if( operand1!== null && operand2 !== null && operator!==""){
+    if( op1!== "" && op2 !== "" && operator!==""){
     op2 = disp.slice(0,-1);
     operand2 = Number(op2);
     display.textContent = op2;
